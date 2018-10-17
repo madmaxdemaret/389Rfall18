@@ -14,7 +14,7 @@ Digital acknowledgement of honor pledge: Max Demaret
 
 1. This file is a JPEG file, or a picture.
 
-2. This photo was taken at the John Hancock Center in Chicago, Il.
+2. This photo was taken at the John Hancock Center in Chicago, Illinois.
 
 3. This photo was taken on Augest 22, 2018, at 11:30:24 am.
 
