@@ -22,7 +22,7 @@ Digital acknowledgement of honor pledge: Max Demaret
 
 5. This photo was taken 539.5 m above sea level
 
-6. Once flag found in the file is CMSC389R-{look_I_f0ound_a_str1ng}
+6. Once flag found in the file is CMSC389R-{look_I_f0und_a_str1ng}
 
 ### Part 2 (55 pts)
 
