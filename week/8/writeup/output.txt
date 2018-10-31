@@ -1,42 +1,11 @@
-Writeup 8 - Forensics II, Network Analysis and File Carving/Parsing
-=====
-
-Name: Max Demaret
-Section: 0201
-
-I pledge on my honor that I have not given or received any unauthorized assistance on this assignment or examination.
-
-Digital acknowledgement of honor pledge: Max Demaret
-
-## Assignment 8 Writeup
-
-### Part 1 (45 Pts)
-1. The hackers did use traceroute on websites, going to cornerstoneairlines.co, which has the ip address 142.93.118.186.
-
-2. The hacker's names are laz0rh4x and c0uchpot4doz.
-
-3. c0uchpot4doz's ip address is 206.189.113.189, and laz0rh4x's ip is 104.248.224.85. Geolocating these gives c0uchpot4doz is in london and laz0rh4x is in North Bergen, NJ, USA.
-
-4. They are using port 2749.
-
-5. Their plans are happening tommorow (October 25, 2018) at 1500, or 3 pm.
-
-6. The hackers sent a google drive link: https://drive.google.com/file/d/1McOX5WjeVHNLyTBNXqbOde7l8SAQ3DoI/view?usp=sharing
-
-They did mention they needed a parser to read it.
-
-7. They expect to see each other tommorow (October 25, 2018).
-
-### Part 2 (55 Pts)
-
-*Report your answers to the questions about parsing update.fpff below.*
-1. update.fpff was generated October 24, 2018 at 20:40:07.
-
-2. laz0rh4x authored update.fpff.
-
-3. update.fpff says it has 9 sections, but it really has 11 sections. 
-
-4. At offset 0x18, currently on section 1
+------- HEADER -------
+MAGIC: 0xdeadbeef
+VERSION: 1
+TIME: 2018-10-24 20:40:07
+AUTHOR: laz0rh4x
+SECTION_COUNT: 9
+-------  BODY  -------
+At offset 0x18, currently on section 1
 ASCII text, with length 51
 Call this number to get your flag: (422) 537 - 7946
 
@@ -80,6 +49,3 @@ At offset 0x3c4c7, currently on section 11
 Array of dwords with 6 dwords and total length 48
 [4, 8, 15, 16, 23, 42]
 Actual number of sections: 11
-
-5. I was able to find two flags in this excercise, one is hidden in the paragraph about stegonography and is "CMS389R-{PIN_IF_FLA}".
-Another is in the png file and is "CMSC389R-{c0rn3rst0ne_airlin3s_to_the_m00n}"
