@@ -81,5 +81,6 @@ Array of dwords with 6 dwords and total length 48
 [4, 8, 15, 16, 23, 42]
 Actual number of sections: 11
 
-5. I was able to find two flags in this excercise, one is hidden in the paragraph about stegonography and is "CMS389R-{PIN_IF_FLA}".
+5. I was able to find three flags in this excercise, one is hidden in the paragraph about stegonography and is "CMSC389R-{PIN_IF_FLAG}".
 Another is in the png file and is "CMSC389R-{c0rn3rst0ne_airlin3s_to_the_m00n}"
+The last one was decoded base64 for section 10: "CMSC389-{h1dd3n-s3ct10n-1n-fil3}"
